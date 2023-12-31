@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            flex-direction: column; 
+        }
+        .form-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            margin-right: 160px;
+        }
+        label {
+            flex: 1;
+            text-align: right;
+            padding-right: 10px;
+        }
+        .form{
+            flex:1;
+            align-items: center;
+            margin-bottom: 10px;
+            margin-right: 160px;
+            width: 100px;
+
+        }
+        input {
+            flex: 1;
+            width: 100%;  
+            box-shadow: 0 -5px 5px -5px #333; 
+            box-shadow: -5px 0 -5px 5px #333;
+    }
+         input[type="reset"]{
+            width:190px;
+            text-align: center;
+            margin-right: 40px;
+            background-color:#ebe6e6;
+            box-shadow: 5px  2px #888888; 
+         }
+         input[type="save"]{
+            width:20px;
+            margin-left: 120px;
+            background-color:#ebe6e6; 
+            box-shadow: 5px  2px #888888; 
+         }
+ 
+    </style>
+</head>
+
+<body>
+    <h3>Registration Form</h3>
+
+    <form>
+        <div class="form-group">
+            <label for="userName">User Name:</label>
+            <input type="text" id="userName" border="2" cellpadding="2">
+        </div>
+
+        <div class="form">
+            <label for="password">Password:</label>
+            <input type="text" id="password" border="6" cellpadding="2">
+        </div>
+        <div class="form">
+            <label for="confirm Password">Confirm Password:</label>
+            <input type="text" id="confirm Password" border="2" cellpadding="1">
+        </div>
+        <div class="form-group">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" border="2" cellpadding="2">
+        </div>
+
+        <div class="form-group">
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" border="2" cellpadding="2">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="text" id="email" border="2" cellpadding="2">
+        </div>
+        <div class="form-group">
+            <label for="phone No">Phone No:</label>
+            <input type="text" id="email" border="2" cellpadding="2">
+        </div>
+        <div class="form-group">
+            <label for="location">Location:</label>
+            <input type="text" id="email" border="2" cellpadding="2">
+        </div>
+        <div class="form-group">
+            <label></label>
+            <input type="Save" value="Save">
+            <input type="Reset" value="Reset" border="3" cellpadding="3">
+        </div>
+    </form>
+    
+</body>
+
+</html>
